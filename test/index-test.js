@@ -4,7 +4,7 @@ var util = require('util');
 var bearer = require('passport-http-bearer');
 
 
-vows.describe('passport-http-bearer').addBatch({
+vows.describe('passport-http-token').addBatch({
   
   'module': {
     'should report a version': function (x) {

@@ -10,7 +10,7 @@
   "bugs": {
     "url": "http://github.com/jaredhanson/passport-http-bearer/issues"
   },
-  "main": "./lib/passport-http-bearer",
+  "main": "./lib/passport-http-token",
   "dependencies": {
     "pkginfo": "0.2.x",
     "passport": "~0.1.3"
