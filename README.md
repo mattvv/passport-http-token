@@ -1,6 +1,6 @@
-# Passport-HTTP-Bearer
+# Passport-HTTP-Token
 
-HTTP Bearer authentication strategy for [Passport](https://github.com/jaredhanson/passport).
+HTTP Token authentication strategy for [Passport](https://github.com/jaredhanson/passport).
 
 This module lets you authenticate HTTP requests using bearer tokens in your
 Node.js applications.  Bearer tokens are typically used protect API endpoints,
@@ -13,7 +13,7 @@ integrated into any application or framework that supports
 
 ## Installation
 
-    $ npm install passport-http-bearer
+    $ npm install passport-http-token
 
 ## Usage
 
@@ -53,11 +53,7 @@ application:
 
 ## Implementation
 
-This module is implemented based on [The OAuth 2.0 Authorization Protocol: Bearer Tokens](http://tools.ietf.org/html/draft-ietf-oauth-v2-bearer-12),
-Draft 12.  Implementers are encouraged to track the progress of this
-specification and update update their implementations as necessary.
-Furthermore, the implications of relying on a non-final draft specification
-should be understood prior to deployment.
+This module is based on the HTTP-Bearer strategy by Jared Hanson, this is just my modifications to make tokens acceptable by HTTP Username, modelled on stripe.
 
 ## Examples
 

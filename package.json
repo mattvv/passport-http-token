@@ -1,11 +1,11 @@
 {
-  "name": "passport-http-bearer",
-  "version": "0.2.0",
-  "description": "HTTP Bearer authentication strategy for Passport.",
-  "author": { "name": "Jared Hanson", "email": "jaredhanson@gmail.com", "url": "http://www.jaredhanson.net/" },
+  "name": "passport-http-token",
+  "version": "0.0.1",
+  "description": "HTTP Token authentication strategy for Passport.",
+  "author": { "name": "Jared Hanson w additions from Matt Van Veenendaal", "email": "jaredhanson@gmail.com", "url": "http://www.jaredhanson.net/" },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-http-bearer.git"
+    "url": "git://github.com/mattvv/passport-http-token.git"
   },
   "bugs": {
     "url": "http://github.com/jaredhanson/passport-http-bearer/issues"
